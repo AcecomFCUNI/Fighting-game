@@ -157,6 +157,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 7.5
+  jumpForce: 18
+  isJump: 0
+  grounded: 0
+  maxJumpHeight: 3
 --- !u!95 &22738199
 Animator:
   serializedVersion: 3
@@ -737,7 +741,7 @@ GameObject:
   - component: {fileID: 1651857958}
   m_Layer: 0
   m_Name: Ground
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
