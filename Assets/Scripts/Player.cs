@@ -9,13 +9,11 @@ public class Player : Entity
     [SerializeField] private float jumpForce;
 
     private float xAxis;
-
     private Rigidbody2D rb;
     private Animator an;
     public bool isJump;
     public bool grounded;
-    private float jumpHeight;
-    [SerializeField] private double maxJumpHeight;
+    public PlayerData _data;
     private Vector2 jumpVelocity;
 
     void Start()
@@ -43,7 +41,7 @@ public class Player : Entity
     {
         if (!grounded)
         {
-            if (transform.position.y >= maxJumpHeight)
+            if (transform.position.y >= _data.maxJumpHeight)
             {
                 var velocity = rb.velocity;
                 velocity = new Vector2(velocity.x, -1*velocity.y);
@@ -97,7 +95,7 @@ public class Player : Entity
     {
         if (grounded && isJump)
         {
-            rb.velocity = new Vector2(rb.velocity.x, jumpForce);
+            rb.velocity = new Vector2(rb.velocity.x, _data.jumpForce);
             grounded = false;
             isJump = false;
         } 
