@@ -375,6 +375,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 7.5
+  character: {fileID: 0}
+  jumpForce: 0
+  isJump: 0
+  grounded: 0
+  maxJumpHeight: 0
 --- !u!50 &1495799655
 Rigidbody2D:
   serializedVersion: 4

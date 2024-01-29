@@ -3,9 +3,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Player : MonoBehaviour
+public class Player : Entity
 {   
-    [SerializeField] private float speed;
+    [Header("Player")]
     [SerializeField] private float jumpForce;
 
     private float xAxis;
