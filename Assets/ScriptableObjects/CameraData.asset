@@ -12,7 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 69e3d8de51a40f446a2fcda0c0021548, type: 3}
   m_Name: CameraData
   m_EditorClassIdentifier: 
-  entityOne: {fileID: 0}
-  entityTwo: {fileID: 0}
-  deadZoneThreshold: 0
-  cameraThreshold: 0
+  deadZoneThreshold: 5
+  cameraThreshold: 11.5
