@@ -16,6 +16,7 @@ public class Player : Entity
     public PlayerData _data;
     private Vector2 jumpVelocity;
 
+    
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -110,4 +111,5 @@ public class Player : Entity
             grounded = true;
         }
     }
+    
 }
