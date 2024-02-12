@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: CameraData
   m_EditorClassIdentifier: 
   deadZoneThreshold: 5
-  cameraThreshold: 11.5
+  cameraThreshold: 7.5

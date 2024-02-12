@@ -3,19 +3,28 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Player : Entity
+public class Player : MonoBehaviour
 {   
     [Header("Player")]
     [SerializeField] private float jumpForce;
+    [SerializeField] private int id = 1;
+    public static float speed = 7.5f;
 
-    private float xAxis;
     private Rigidbody2D rb;
     private Animator an;
+
+    private float xAxis;
     public bool isJump;
     public bool grounded;
     public PlayerData _data;
     private Vector2 jumpVelocity;
+    private Player enemie;
 
+    public float XAxis 
+    {
+        get => xAxis;
+        private set => xAxis = value;
+    }
     
     void Start()
     {
@@ -75,7 +84,7 @@ public class Player : Entity
 
     private void ReadInputs()
     {
-        xAxis = Input.GetAxisRaw("Horizontal");
+        XAxis = Input.GetAxisRaw("Horizontal" + id);
         if (Input.GetButtonDown("Jump"))
         {
             isJump = true;

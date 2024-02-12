@@ -164,9 +164,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 421501a3b16d55a43b2625420bb5132a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 7.5
   character: {fileID: 0}
   jumpForce: 18
+  id: 1
   isJump: 0
   grounded: 0
   _data: {fileID: 11400000, guid: c45ca08d00c74764d828fcd5fd89061c, type: 2}
