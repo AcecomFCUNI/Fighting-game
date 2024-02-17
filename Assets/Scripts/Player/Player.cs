@@ -25,6 +25,12 @@ public class Player : MonoBehaviour
         get => xAxis;
         private set => xAxis = value;
     }
+
+    public int Id
+    {
+        get => id;
+        private set => id = value;
+    }
     
     void Start()
     {
@@ -84,8 +90,8 @@ public class Player : MonoBehaviour
 
     private void ReadInputs()
     {
-        XAxis = Input.GetAxisRaw("Horizontal" + id);
-        if (Input.GetButtonDown("Jump"))
+        XAxis = Input.GetAxisRaw("Horizontal" + Id);
+        if (Input.GetButtonDown("Jump" + Id))
         {
             isJump = true;
         }

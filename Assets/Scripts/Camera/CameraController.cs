@@ -15,7 +15,6 @@ public class CameraController : MonoBehaviour
     }
     private void UpdatePosition()
     {
-        
         float xDifferenceOne = Mathf.Abs(playerOne.transform.position.x - transform.position.x);
         float xDifferenceTwo = Mathf.Abs(playerTwo.transform.position.x - transform.position.x);
 
@@ -29,18 +28,18 @@ public class CameraController : MonoBehaviour
             auxPos = transform.position + new Vector3(Time.deltaTime * Player.speed * playerOne.XAxis, 0, 0);
             if(!IsOutOfLimits(ref auxPos))
             {
-                transform.position = Vector3.MoveTowards(transform.position, auxPos, Player.speed * 0.75f * Time.deltaTime);
+                transform.position = 
+                Vector3.MoveTowards(transform.position, auxPos, Player.speed * 0.75f * Time.deltaTime);
             }
-            
         }
 
         if(xDifferenceTwo > _data.deadZoneThreshold)
         {
             auxPos = transform.position + new Vector3(Time.deltaTime * Player.speed * playerTwo.XAxis, 0, 0);
-            Debug.Log(auxPos + "A");
             if(!IsOutOfLimits(ref auxPos))
             {
-                transform.position = Vector3.MoveTowards(transform.position, auxPos, Player.speed * 0.75f * Time.deltaTime);
+                transform.position =
+                 Vector3.MoveTowards(transform.position, auxPos, Player.speed * 0.75f * Time.deltaTime);
             }
             
         } 
@@ -52,7 +51,6 @@ public class CameraController : MonoBehaviour
         if(posX >= _data.cameraThreshold)
         {
             auxPos.x = _data.cameraThreshold;
-            Debug.Log(auxPos.x + "B");
             return true;
         }
         return false;
