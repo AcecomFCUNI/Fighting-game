@@ -40,6 +40,9 @@ public class PlayerInput : MonoBehaviour
 
     private void CheckInputBuffer()
     {
-        
+        //Check each slot of the movelist, then check each input of each slot, 
+        //and, using priority, go through all the input buffer to check if the combo has been done
     }
+
+    
 }

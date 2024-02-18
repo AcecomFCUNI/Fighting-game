@@ -8,6 +8,7 @@ public class Player : MonoBehaviour
     [Header("Player")]
     [SerializeField] private float jumpForce;
     [SerializeField] private int id = 1;
+    [SerializeField] private string character;
     public static float speed = 7.5f;
 
     private Rigidbody2D rb;
@@ -30,6 +31,12 @@ public class Player : MonoBehaviour
     {
         get => id;
         private set => id = value;
+    }
+
+    public string Character
+    {
+        get => character;
+        set => character = value;
     }
     
     void Start()
