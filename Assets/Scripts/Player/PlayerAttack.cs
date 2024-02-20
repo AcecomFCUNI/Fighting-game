@@ -95,7 +95,9 @@ public class PlayerAttack : MonoBehaviour
                     continue;
                 }
                 Debug.Log("Hit Punch: " + enemy.name);
-                enemy.GetComponent<Player>().TakeDamage(10);
+                if(attack.Contains("L")) enemy.GetComponent<Player>().TakeDamage(5);
+                else if(attack.Contains("S")) enemy.GetComponent<Player>().TakeDamage(10);
+                
             }
         }
         else if(attack.Contains("K"))
@@ -111,6 +113,8 @@ public class PlayerAttack : MonoBehaviour
                     continue;
                 }
                 Debug.Log("Hit Kick: " + enemy.name);
+                if(attack.Contains("L")) enemy.GetComponent<Player>().TakeDamage(5);
+                else if(attack.Contains("S")) enemy.GetComponent<Player>().TakeDamage(10);
             }
         }
     }
