@@ -19,7 +19,8 @@ public class Player : MonoBehaviour
     public bool grounded;
     public PlayerData _data;
     private Vector2 jumpVelocity;
-    private Player enemie;
+    public Player enemy;
+    public float life;
 
     public float XAxis 
     {
@@ -49,6 +50,10 @@ public class Player : MonoBehaviour
 
     void Update()
     {
+        Vector3 lookDirection = enemy.transform.position - transform.position;
+        lookDirection.y = 0f;
+        if(lookDirection.x > 0) transform.localScale = new Vector3(1, 1, 1);
+        else if(lookDirection.x < 0) transform.localScale = new Vector3(-1, 1, 1);
         ReadInputs();
         Move();
         Run();
@@ -133,5 +138,12 @@ public class Player : MonoBehaviour
             grounded = true;
         }
     }
-    
+    public void TakeDamage(float damage)
+    {
+        life -= damage;
+        if (life <= 0)
+        {
+            transform.position = new Vector3(100, 0, 0);
+        }
+    }
 }

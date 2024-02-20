@@ -8,41 +8,69 @@ public class PlayerAttack : MonoBehaviour
     private float tiempoEntreAtaques;
     public float tiempoInicialAtaque;
     public Vector3 offset;
+    Player player;
+    public int id;
+    private Animator an;
+    private void Start()
+    {
+        player = GetComponent<Player>();
+        id = player.Id;
+        an = GetComponent<Animator>();
+    }
+    
     
     private void Update()
     {
+        readInput();
+        doAnimation();
+    }
+
+    private void doAnimation()
+    {
+        if (Input.GetButtonDown("LP" + id))
+        {
+            an.SetTrigger("LP");
+        }
+        if (Input.GetButtonDown("SP" + id))
+        {
+            an.SetTrigger("SP");
+        }
+        if (Input.GetButtonDown("LK" + id))
+        {
+            an.SetTrigger("LK");
+        }
+        if (Input.GetButtonDown("SK" + id))
+        {
+            an.SetTrigger("SK");
+        }
+    }
+
+    private void readInput()
+    {
         if (tiempoEntreAtaques <= 0)
         {
-            if (Input.GetKeyDown(KeyCode.J))
+            if (Input.GetButtonDown("LP" + id))
             {
                 tiempoEntreAtaques = tiempoInicialAtaque;
                 doAttack("LP");
             }
-            if (Input.GetKeyDown(KeyCode.K))
+            if (Input.GetButtonDown("SP" + id))
             {
-                doAttack("MP");
+                doAttack("SP");
                 tiempoEntreAtaques = tiempoInicialAtaque;
             }
-            if (Input.GetKeyDown(KeyCode.L))
-            {
-                doAttack("HP");
-                tiempoEntreAtaques = tiempoInicialAtaque;
-            }
-            if (Input.GetKeyDown(KeyCode.U))
+            
+            if (Input.GetButtonDown("LK" + id))
             {
                 tiempoEntreAtaques = tiempoInicialAtaque;
                 doAttack("LK");
             }
-            if (Input.GetKeyDown(KeyCode.I))
+            if (Input.GetButtonDown("SK" + id))
             {
-                doAttack("MK");
+                doAttack("SK");
                 tiempoEntreAtaques = tiempoInicialAtaque;
             }
-            if (Input.GetKeyDown(KeyCode.O))
-            {
-                doAttack("HK");
-                tiempoEntreAtaques = tiempoInicialAtaque;
-            }
+            
         }
         else
         {
@@ -52,12 +80,13 @@ public class PlayerAttack : MonoBehaviour
 
     private void doAttack(String attack)
     {
+        
         Debug.Log("Attack: " + attack);
         if(attack.Contains("P"))
         {
-            // Debug.Log("Punch");
+            float scale = transform.localScale.x;
             Vector2 size = new Vector2(8, 1);
-            offset = new Vector3(1, 1.42f, 0);
+            offset = new Vector3(scale, 1.42f, 0);
             Collider2D[] hitEnemies = Physics2D.OverlapBoxAll(transform.position, size, 0f);
             foreach (Collider2D enemy in hitEnemies)
             {
@@ -66,12 +95,14 @@ public class PlayerAttack : MonoBehaviour
                     continue;
                 }
                 Debug.Log("Hit Punch: " + enemy.name);
+                enemy.GetComponent<Player>().TakeDamage(10);
             }
         }
         else if(attack.Contains("K"))
         {
+            float scale = transform.localScale.x;
             Vector2 size = new Vector2(8, 1);
-            offset = new Vector3(1, -1.42f, 0);
+            offset = new Vector3(scale, -1.42f, 0);
             Collider2D[] hitEnemies = Physics2D.OverlapBoxAll(transform.position + offset, size, 0f);
             foreach (Collider2D enemy in hitEnemies)
             {
@@ -91,4 +122,6 @@ public class PlayerAttack : MonoBehaviour
         Gizmos.DrawWireCube(transform.position + offset, size);
     }
 
+    
+    
 }
