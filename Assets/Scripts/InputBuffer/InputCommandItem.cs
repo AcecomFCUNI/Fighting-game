@@ -4,8 +4,7 @@ using UnityEngine;
 
 public class InputCommandItem
 {
-    public int 
-    hold; 
+    public int hold; 
     public bool used;
 
     public void HoldUp()

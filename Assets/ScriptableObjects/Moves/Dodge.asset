@@ -12,5 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 753c2d8f8bdc69648bfe1b602dba4fed, type: 3}
   m_Name: Dodge
   m_EditorClassIdentifier: 
-  inputs: []
+  inputs:
+  - {fileID: 11400000, guid: bbff379d827e28f429417c78d6a9c2d9, type: 2}
+  - {fileID: 11400000, guid: f1cfa143c36bb574499dc4b4f654dda6, type: 2}
+  actionType: 0
   priority: 0

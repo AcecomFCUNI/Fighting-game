@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+[RequireComponent(typeof(Animator))]
 public class Player : MonoBehaviour
 {   
     [Header("Player")]
@@ -37,7 +38,7 @@ public class Player : MonoBehaviour
     public string Character
     {
         get => character;
-        set => character = value;
+        private set => character = value;
     }
     
     void Start()
@@ -52,8 +53,8 @@ public class Player : MonoBehaviour
     {
         Vector3 lookDirection = enemy.transform.position - transform.position;
         lookDirection.y = 0f;
-        if(lookDirection.x > 0) transform.localScale = new Vector3(1, 1, 1);
-        else if(lookDirection.x < 0) transform.localScale = new Vector3(-1, 1, 1);
+        if(lookDirection.x > 0) transform.right = new Vector3(1, 0, 0);
+        else if(lookDirection.x < 0) transform.right = new Vector3(-1, 0, 0);
         ReadInputs();
         Move();
         Run();

@@ -1,7 +1,10 @@
 fileFormatVersion: 2
-guid: d4489411010fa9a4b9a352364cb5301b
+guid: e56236a258f856043973450ccf15231c
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: -9026467718160542486
+    second: Iori_Icon
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -91,22 +94,22 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Iori
+      name: Iori_Icon
       rect:
         serializedVersion: 2
-        x: 23
-        y: 402
-        width: 98
-        height: 94
+        x: 201
+        y: 70
+        width: 16
+        height: 23
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6161aef31624d3680800000000000000
-      internalID: -8773783513596291562
+      spriteID: ae492824f6b8bb280800000000000000
+      internalID: -9026467718160542486
       vertices: []
       indices: 
       edges: []

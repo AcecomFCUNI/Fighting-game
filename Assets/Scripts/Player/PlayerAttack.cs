@@ -5,7 +5,7 @@ using UnityEngine;
 
 public class PlayerAttack : MonoBehaviour
 {
-    private float tiempoEntreAtaques;
+    [SerializeField] private float tiempoEntreAtaques;
     public float tiempoInicialAtaque;
     public Vector3 offset;
     Player player;
@@ -22,26 +22,30 @@ public class PlayerAttack : MonoBehaviour
     private void Update()
     {
         readInput();
-        doAnimation();
+        //doAnimation();
     }
 
     private void doAnimation()
     {
         if (Input.GetButtonDown("LP" + id))
         {
-            an.SetTrigger("LP");
+            an.SetFloat("AttackType", 0);
+            an.SetTrigger("Attack");
         }
         if (Input.GetButtonDown("SP" + id))
         {
-            an.SetTrigger("SP");
+            an.SetFloat("AttackType", 0.3f);
+            an.SetTrigger("Attack");
         }
         if (Input.GetButtonDown("LK" + id))
         {
-            an.SetTrigger("LK");
+            an.SetFloat("AttackType", 0.6f);
+            an.SetTrigger("Attack");
         }
         if (Input.GetButtonDown("SK" + id))
         {
-            an.SetTrigger("SK");
+            an.SetFloat("AttackType", 1);
+            an.SetTrigger("Attack");
         }
     }
 
@@ -52,22 +56,30 @@ public class PlayerAttack : MonoBehaviour
             if (Input.GetButtonDown("LP" + id))
             {
                 tiempoEntreAtaques = tiempoInicialAtaque;
+                an.SetFloat("AttackType", 0);
+                an.SetTrigger("Attack");
                 doAttack("LP");
             }
             if (Input.GetButtonDown("SP" + id))
             {
                 doAttack("SP");
+                an.SetFloat("AttackType", 0.3f);
+                an.SetTrigger("Attack");
                 tiempoEntreAtaques = tiempoInicialAtaque;
             }
             
             if (Input.GetButtonDown("LK" + id))
             {
                 tiempoEntreAtaques = tiempoInicialAtaque;
+                an.SetFloat("AttackType", 0.6f);
+                an.SetTrigger("Attack");
                 doAttack("LK");
             }
             if (Input.GetButtonDown("SK" + id))
             {
                 doAttack("SK");
+                an.SetFloat("AttackType", 1);
+                an.SetTrigger("Attack");
                 tiempoEntreAtaques = tiempoInicialAtaque;
             }
             

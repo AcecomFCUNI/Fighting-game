@@ -1,7 +1,208 @@
 fileFormatVersion: 2
 guid: 3ccc06328324f3542b5d271adc7b80e7
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 3868163697576478658
+    second: Container
+  - first:
+      213: 9128792442279520703
+    second: Health Bar
+  - first:
+      213: 4386972029200526132
+    second: kof_2002_sprites_sheet_by_satouncristian_dbtpbpa_2
+  - first:
+      213: 8769112035139150211
+    second: kof_2002_sprites_sheet_by_satouncristian_dbtpbpa_3
+  - first:
+      213: 6729246474640814150
+    second: kof_2002_sprites_sheet_by_satouncristian_dbtpbpa_4
+  - first:
+      213: -7351339454109635293
+    second: kof_2002_sprites_sheet_by_satouncristian_dbtpbpa_5
+  - first:
+      213: 991817399171541296
+    second: kof_2002_sprites_sheet_by_satouncristian_dbtpbpa_6
+  - first:
+      213: 1091348258033401730
+    second: kof_2002_sprites_sheet_by_satouncristian_dbtpbpa_7
+  - first:
+      213: -6010835818592813944
+    second: kof_2002_sprites_sheet_by_satouncristian_dbtpbpa_8
+  - first:
+      213: 3029256504867024540
+    second: kof_2002_sprites_sheet_by_satouncristian_dbtpbpa_9
+  - first:
+      213: 4444875898071324560
+    second: kof_2002_sprites_sheet_by_satouncristian_dbtpbpa_10
+  - first:
+      213: 881770905270325114
+    second: kof_2002_sprites_sheet_by_satouncristian_dbtpbpa_11
+  - first:
+      213: 4597136924560849769
+    second: kof_2002_sprites_sheet_by_satouncristian_dbtpbpa_12
+  - first:
+      213: -6224434306379437858
+    second: kof_2002_sprites_sheet_by_satouncristian_dbtpbpa_13
+  - first:
+      213: -8249399862324971614
+    second: kof_2002_sprites_sheet_by_satouncristian_dbtpbpa_14
+  - first:
+      213: -1978732702885527163
+    second: kof_2002_sprites_sheet_by_satouncristian_dbtpbpa_15
+  - first:
+      213: -712315434687531963
+    second: kof_2002_sprites_sheet_by_satouncristian_dbtpbpa_16
+  - first:
+      213: -5647807841555253631
+    second: kof_2002_sprites_sheet_by_satouncristian_dbtpbpa_17
+  - first:
+      213: 2086026729576093791
+    second: kof_2002_sprites_sheet_by_satouncristian_dbtpbpa_18
+  - first:
+      213: -6980278754669813927
+    second: kof_2002_sprites_sheet_by_satouncristian_dbtpbpa_19
+  - first:
+      213: 5610927556395821118
+    second: kof_2002_sprites_sheet_by_satouncristian_dbtpbpa_20
+  - first:
+      213: 9208161007659073269
+    second: kof_2002_sprites_sheet_by_satouncristian_dbtpbpa_21
+  - first:
+      213: -6110812741687059171
+    second: kof_2002_sprites_sheet_by_satouncristian_dbtpbpa_22
+  - first:
+      213: -5458078006903767596
+    second: kof_2002_sprites_sheet_by_satouncristian_dbtpbpa_23
+  - first:
+      213: -5411995812568576373
+    second: kof_2002_sprites_sheet_by_satouncristian_dbtpbpa_24
+  - first:
+      213: -2824430838389505134
+    second: kof_2002_sprites_sheet_by_satouncristian_dbtpbpa_25
+  - first:
+      213: -5587103763291010770
+    second: kof_2002_sprites_sheet_by_satouncristian_dbtpbpa_26
+  - first:
+      213: 1801157993151644047
+    second: kof_2002_sprites_sheet_by_satouncristian_dbtpbpa_27
+  - first:
+      213: -1823896475681664699
+    second: kof_2002_sprites_sheet_by_satouncristian_dbtpbpa_28
+  - first:
+      213: -8466240589164866194
+    second: kof_2002_sprites_sheet_by_satouncristian_dbtpbpa_29
+  - first:
+      213: -431741906420459278
+    second: kof_2002_sprites_sheet_by_satouncristian_dbtpbpa_30
+  - first:
+      213: -3227666635370713908
+    second: kof_2002_sprites_sheet_by_satouncristian_dbtpbpa_31
+  - first:
+      213: 1120327999934491514
+    second: kof_2002_sprites_sheet_by_satouncristian_dbtpbpa_32
+  - first:
+      213: 6706172426786869909
+    second: kof_2002_sprites_sheet_by_satouncristian_dbtpbpa_33
+  - first:
+      213: 5484680071913136186
+    second: kof_2002_sprites_sheet_by_satouncristian_dbtpbpa_34
+  - first:
+      213: 7156523847331939763
+    second: kof_2002_sprites_sheet_by_satouncristian_dbtpbpa_35
+  - first:
+      213: -6198252362406144805
+    second: kof_2002_sprites_sheet_by_satouncristian_dbtpbpa_36
+  - first:
+      213: -6815744328836568123
+    second: kof_2002_sprites_sheet_by_satouncristian_dbtpbpa_37
+  - first:
+      213: 8791589983201820046
+    second: kof_2002_sprites_sheet_by_satouncristian_dbtpbpa_39
+  - first:
+      213: 1300665838656737483
+    second: kof_2002_sprites_sheet_by_satouncristian_dbtpbpa_40
+  - first:
+      213: -6452980347225498761
+    second: kof_2002_sprites_sheet_by_satouncristian_dbtpbpa_41
+  - first:
+      213: -2076077338931904732
+    second: kof_2002_sprites_sheet_by_satouncristian_dbtpbpa_42
+  - first:
+      213: 7761305397795910634
+    second: kof_2002_sprites_sheet_by_satouncristian_dbtpbpa_43
+  - first:
+      213: 1323227448857237375
+    second: kof_2002_sprites_sheet_by_satouncristian_dbtpbpa_44
+  - first:
+      213: -1593807235076293740
+    second: kof_2002_sprites_sheet_by_satouncristian_dbtpbpa_45
+  - first:
+      213: -8882393793176738379
+    second: kof_2002_sprites_sheet_by_satouncristian_dbtpbpa_46
+  - first:
+      213: 5738920643756935989
+    second: kof_2002_sprites_sheet_by_satouncristian_dbtpbpa_47
+  - first:
+      213: -4006482152743992279
+    second: kof_2002_sprites_sheet_by_satouncristian_dbtpbpa_48
+  - first:
+      213: 6414699614233917234
+    second: kof_2002_sprites_sheet_by_satouncristian_dbtpbpa_49
+  - first:
+      213: -8225540723839343745
+    second: kof_2002_sprites_sheet_by_satouncristian_dbtpbpa_50
+  - first:
+      213: -1098018614812052969
+    second: kof_2002_sprites_sheet_by_satouncristian_dbtpbpa_51
+  - first:
+      213: 6648360264926319405
+    second: kof_2002_sprites_sheet_by_satouncristian_dbtpbpa_52
+  - first:
+      213: -43920631337825674
+    second: kof_2002_sprites_sheet_by_satouncristian_dbtpbpa_53
+  - first:
+      213: 2986374945593545103
+    second: kof_2002_sprites_sheet_by_satouncristian_dbtpbpa_54
+  - first:
+      213: 8204342175582475165
+    second: kof_2002_sprites_sheet_by_satouncristian_dbtpbpa_55
+  - first:
+      213: -6389366212678723426
+    second: kof_2002_sprites_sheet_by_satouncristian_dbtpbpa_56
+  - first:
+      213: -5220872281452528409
+    second: kof_2002_sprites_sheet_by_satouncristian_dbtpbpa_57
+  - first:
+      213: 2829912663005667691
+    second: kof_2002_sprites_sheet_by_satouncristian_dbtpbpa_58
+  - first:
+      213: 690893379978526923
+    second: kof_2002_sprites_sheet_by_satouncristian_dbtpbpa_59
+  - first:
+      213: -7868128692960408655
+    second: kof_2002_sprites_sheet_by_satouncristian_dbtpbpa_60
+  - first:
+      213: -4618674693251176105
+    second: kof_2002_sprites_sheet_by_satouncristian_dbtpbpa_61
+  - first:
+      213: 3488347632294953412
+    second: kof_2002_sprites_sheet_by_satouncristian_dbtpbpa_62
+  - first:
+      213: -827820542944252440
+    second: kof_2002_sprites_sheet_by_satouncristian_dbtpbpa_64
+  - first:
+      213: 6863434903562208191
+    second: kof_2002_sprites_sheet_by_satouncristian_dbtpbpa_65
+  - first:
+      213: -5515145036710001285
+    second: kof_2002_sprites_sheet_by_satouncristian_dbtpbpa_66
+  - first:
+      213: -3919521548125295795
+    second: kof_2002_sprites_sheet_by_satouncristian_dbtpbpa_67
+  - first:
+      213: 9222204153660558777
+    second: kof_2002_sprites_sheet_by_satouncristian_dbtpbpa_68
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -32,7 +233,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -41,12 +242,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -75,9 +276,1428 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Container
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 413
+        width: 304
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c78b17736a7ea530800000000000000
+      internalID: 3868163697576478658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Health Bar
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 401
+        width: 102
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb9675e1c5cffae70800000000000000
+      internalID: 9128792442279520703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kof_2002_sprites_sheet_by_satouncristian_dbtpbpa_2
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 401
+        width: 102
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43b621041d7a1ec30800000000000000
+      internalID: 4386972029200526132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kof_2002_sprites_sheet_by_satouncristian_dbtpbpa_3
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 391
+        width: 102
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 381621a6fe422b970800000000000000
+      internalID: 8769112035139150211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kof_2002_sprites_sheet_by_satouncristian_dbtpbpa_4
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 391
+        width: 102
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 640f30ff306136d50800000000000000
+      internalID: 6729246474640814150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kof_2002_sprites_sheet_by_satouncristian_dbtpbpa_5
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 371
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32d2b7e27bbcaf990800000000000000
+      internalID: -7351339454109635293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kof_2002_sprites_sheet_by_satouncristian_dbtpbpa_6
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 371
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 039ebaf6ba4a3cd00800000000000000
+      internalID: 991817399171541296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kof_2002_sprites_sheet_by_satouncristian_dbtpbpa_7
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 371
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28f725e557f352f00800000000000000
+      internalID: 1091348258033401730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kof_2002_sprites_sheet_by_satouncristian_dbtpbpa_8
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 371
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88cb4957ba8359ca0800000000000000
+      internalID: -6010835818592813944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kof_2002_sprites_sheet_by_satouncristian_dbtpbpa_9
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 371
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9ee322ddb41a0a20800000000000000
+      internalID: 3029256504867024540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kof_2002_sprites_sheet_by_satouncristian_dbtpbpa_10
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 371
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0979c3f441f5fad30800000000000000
+      internalID: 4444875898071324560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kof_2002_sprites_sheet_by_satouncristian_dbtpbpa_11
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 371
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7f89ed67fdac3c00800000000000000
+      internalID: 881770905270325114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kof_2002_sprites_sheet_by_satouncristian_dbtpbpa_12
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 371
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96bf74c1daf4ccf30800000000000000
+      internalID: 4597136924560849769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kof_2002_sprites_sheet_by_satouncristian_dbtpbpa_13
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 371
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed8af701afd5e99a0800000000000000
+      internalID: -6224434306379437858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kof_2002_sprites_sheet_by_satouncristian_dbtpbpa_14
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 371
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a7b6fb488e348d80800000000000000
+      internalID: -8249399862324971614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kof_2002_sprites_sheet_by_satouncristian_dbtpbpa_15
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 371
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5814f0b27112a84e0800000000000000
+      internalID: -1978732702885527163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kof_2002_sprites_sheet_by_satouncristian_dbtpbpa_16
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 371
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 544fb6bd2e85d16f0800000000000000
+      internalID: -712315434687531963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kof_2002_sprites_sheet_by_satouncristian_dbtpbpa_17
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 371
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 186fe6401b4fe91b0800000000000000
+      internalID: -5647807841555253631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kof_2002_sprites_sheet_by_satouncristian_dbtpbpa_18
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 371
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f585a50224e03fc10800000000000000
+      internalID: 2086026729576093791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kof_2002_sprites_sheet_by_satouncristian_dbtpbpa_19
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 371
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95f13baa471112f90800000000000000
+      internalID: -6980278754669813927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kof_2002_sprites_sheet_by_satouncristian_dbtpbpa_20
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 371
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e386c6372e40edd40800000000000000
+      internalID: 5610927556395821118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kof_2002_sprites_sheet_by_satouncristian_dbtpbpa_21
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 371
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fe3f1846a5f9cf70800000000000000
+      internalID: 9208161007659073269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kof_2002_sprites_sheet_by_satouncristian_dbtpbpa_22
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 371
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1ddfca1038023ba0800000000000000
+      internalID: -6110812741687059171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kof_2002_sprites_sheet_by_satouncristian_dbtpbpa_23
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 371
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ddf02a88f20144b0800000000000000
+      internalID: -5458078006903767596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kof_2002_sprites_sheet_by_satouncristian_dbtpbpa_24
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 371
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8ec2f18b7ab4e4b0800000000000000
+      internalID: -5411995812568576373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kof_2002_sprites_sheet_by_satouncristian_dbtpbpa_25
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 371
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2938221fd1b9dc8d0800000000000000
+      internalID: -2824430838389505134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kof_2002_sprites_sheet_by_satouncristian_dbtpbpa_26
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 371
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e298ac1aabe9672b0800000000000000
+      internalID: -5587103763291010770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kof_2002_sprites_sheet_by_satouncristian_dbtpbpa_27
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 371
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f81c82ed6affef810800000000000000
+      internalID: 1801157993151644047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kof_2002_sprites_sheet_by_satouncristian_dbtpbpa_28
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 371
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54158eb91d730b6e0800000000000000
+      internalID: -1823896475681664699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kof_2002_sprites_sheet_by_satouncristian_dbtpbpa_29
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 371
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6595db4a0fd18a80800000000000000
+      internalID: -8466240589164866194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kof_2002_sprites_sheet_by_satouncristian_dbtpbpa_30
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 371
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f898290605220af0800000000000000
+      internalID: -431741906420459278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kof_2002_sprites_sheet_by_satouncristian_dbtpbpa_31
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 357
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccc2959cb460533d0800000000000000
+      internalID: -3227666635370713908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kof_2002_sprites_sheet_by_satouncristian_dbtpbpa_32
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 357
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7be40451643c8f00800000000000000
+      internalID: 1120327999934491514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kof_2002_sprites_sheet_by_satouncristian_dbtpbpa_33
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 357
+        width: 14
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59296259a4c111d50800000000000000
+      internalID: 6706172426786869909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kof_2002_sprites_sheet_by_satouncristian_dbtpbpa_34
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 357
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a30eb01677f7d1c40800000000000000
+      internalID: 5484680071913136186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kof_2002_sprites_sheet_by_satouncristian_dbtpbpa_35
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 357
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b505d2b584115360800000000000000
+      internalID: 7156523847331939763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kof_2002_sprites_sheet_by_satouncristian_dbtpbpa_36
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 357
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd45e8ee0526bf9a0800000000000000
+      internalID: -6198252362406144805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kof_2002_sprites_sheet_by_satouncristian_dbtpbpa_37
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 357
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cb20dfe4ac9961a0800000000000000
+      internalID: -6815744328836568123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kof_2002_sprites_sheet_by_satouncristian_dbtpbpa_39
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 328
+        width: 87
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8d70a78280020a70800000000000000
+      internalID: 8791589983201820046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kof_2002_sprites_sheet_by_satouncristian_dbtpbpa_40
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 329
+        width: 66
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc0de9460b4ec0210800000000000000
+      internalID: 1300665838656737483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kof_2002_sprites_sheet_by_satouncristian_dbtpbpa_41
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 328
+        width: 87
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77b1c0540986276a0800000000000000
+      internalID: -6452980347225498761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kof_2002_sprites_sheet_by_satouncristian_dbtpbpa_42
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 301
+        width: 86
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42fb9b6e8aa4033e0800000000000000
+      internalID: -2076077338931904732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kof_2002_sprites_sheet_by_satouncristian_dbtpbpa_43
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 303
+        width: 66
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae372fc5322b5bb60800000000000000
+      internalID: 7761305397795910634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kof_2002_sprites_sheet_by_satouncristian_dbtpbpa_44
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 299
+        width: 87
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f779e2e9a5c0d5210800000000000000
+      internalID: 1323227448857237375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kof_2002_sprites_sheet_by_satouncristian_dbtpbpa_45
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 273
+        width: 87
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49b74d893c8a1e9e0800000000000000
+      internalID: -1593807235076293740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kof_2002_sprites_sheet_by_satouncristian_dbtpbpa_46
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 275
+        width: 66
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b5e092f7e56bb480800000000000000
+      internalID: -8882393793176738379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kof_2002_sprites_sheet_by_satouncristian_dbtpbpa_47
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 272
+        width: 87
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53bc94d5bedb4af40800000000000000
+      internalID: 5738920643756935989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kof_2002_sprites_sheet_by_satouncristian_dbtpbpa_48
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 245
+        width: 87
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92480c695bd1668c0800000000000000
+      internalID: -4006482152743992279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kof_2002_sprites_sheet_by_satouncristian_dbtpbpa_49
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 247
+        width: 67
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2377f370057950950800000000000000
+      internalID: 6414699614233917234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kof_2002_sprites_sheet_by_satouncristian_dbtpbpa_50
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 244
+        width: 87
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f73eb0eda4209dd80800000000000000
+      internalID: -8225540723839343745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kof_2002_sprites_sheet_by_satouncristian_dbtpbpa_51
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 219
+        width: 87
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7127c5b23ed03c0f0800000000000000
+      internalID: -1098018614812052969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kof_2002_sprites_sheet_by_satouncristian_dbtpbpa_52
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 234
+        width: 64
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2351c9bf68b34c50800000000000000
+      internalID: 6648360264926319405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kof_2002_sprites_sheet_by_satouncristian_dbtpbpa_53
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 216
+        width: 87
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67a4cc22b66f36ff0800000000000000
+      internalID: -43920631337825674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kof_2002_sprites_sheet_by_satouncristian_dbtpbpa_54
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 219
+        width: 67
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f81da36c03cb17920800000000000000
+      internalID: 2986374945593545103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kof_2002_sprites_sheet_by_satouncristian_dbtpbpa_55
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 189
+        width: 87
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d93595f7dbdabd170800000000000000
+      internalID: 8204342175582475165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kof_2002_sprites_sheet_by_satouncristian_dbtpbpa_56
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 189
+        width: 87
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e98d66928496457a0800000000000000
+      internalID: -6389366212678723426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kof_2002_sprites_sheet_by_satouncristian_dbtpbpa_57
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 170
+        width: 68
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ecb656425cbb87b0800000000000000
+      internalID: -5220872281452528409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kof_2002_sprites_sheet_by_satouncristian_dbtpbpa_58
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 170
+        width: 68
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6125dfc29ed54720800000000000000
+      internalID: 2829912663005667691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kof_2002_sprites_sheet_by_satouncristian_dbtpbpa_59
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 160
+        width: 68
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc00a4b5edb869900800000000000000
+      internalID: 690893379978526923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kof_2002_sprites_sheet_by_satouncristian_dbtpbpa_60
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 160
+        width: 68
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bb490114aacec290800000000000000
+      internalID: -7868128692960408655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kof_2002_sprites_sheet_by_satouncristian_dbtpbpa_61
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 149
+        width: 68
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7596da756db27efb0800000000000000
+      internalID: -4618674693251176105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kof_2002_sprites_sheet_by_satouncristian_dbtpbpa_62
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 149
+        width: 68
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c1040480b9196030800000000000000
+      internalID: 3488347632294953412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kof_2002_sprites_sheet_by_satouncristian_dbtpbpa_64
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 118
+        width: 49
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ed69082a9df284f0800000000000000
+      internalID: -827820542944252440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kof_2002_sprites_sheet_by_satouncristian_dbtpbpa_65
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 99
+        width: 56
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb3c7d54ea1df3f50800000000000000
+      internalID: 6863434903562208191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kof_2002_sprites_sheet_by_satouncristian_dbtpbpa_66
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 99
+        width: 56
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7544224fc44673b0800000000000000
+      internalID: -5515145036710001285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kof_2002_sprites_sheet_by_satouncristian_dbtpbpa_67
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 100
+        width: 56
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4ba0822bef0b99c0800000000000000
+      internalID: -3919521548125295795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kof_2002_sprites_sheet_by_satouncristian_dbtpbpa_68
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 100
+        width: 56
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bdc11101d9dbff70800000000000000
+      internalID: 9222204153660558777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []

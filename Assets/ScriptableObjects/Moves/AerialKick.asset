@@ -12,5 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 753c2d8f8bdc69648bfe1b602dba4fed, type: 3}
   m_Name: AerialKick
   m_EditorClassIdentifier: 
-  inputs: []
+  inputs:
+  - {fileID: 11400000, guid: 3a9d9379b297c1547a3abc325c050d0e, type: 2}
+  - {fileID: 11400000, guid: afb3188b21fb58d458c91102e568a039, type: 2}
+  actionType: 1
   priority: 0

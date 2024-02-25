@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d60df351cc4ba994c8f875b2ba2c3d83, type: 3}
   m_Name: SK
   m_EditorClassIdentifier: 
-  button: LK
+  button: SK
   hold: 0

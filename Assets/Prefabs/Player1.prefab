@@ -14,6 +14,8 @@ GameObject:
   - component: {fileID: 8926414061078971697}
   - component: {fileID: 8926414061078971710}
   - component: {fileID: 8926414061078971698}
+  - component: {fileID: 1156585133}
+  - component: {fileID: 744945894695335463}
   m_Layer: 0
   m_Name: Player1
   m_TagString: Player
@@ -164,9 +166,38 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 421501a3b16d55a43b2625420bb5132a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  character: {fileID: 0}
   jumpForce: 18
   id: 1
+  character: 
   isJump: 0
   grounded: 0
   _data: {fileID: 11400000, guid: c45ca08d00c74764d828fcd5fd89061c, type: 2}
+  enemy: {fileID: 0}
+  life: 0
+--- !u!114 &1156585133
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8926414061078971696}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5a3208e776dbfa47962466842b20aa2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &744945894695335463
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8926414061078971696}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 567430a1fe47de74a90ec3b8372ac4c9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tiempoInicialAtaque: 0
+  offset: {x: 0, y: 0, z: 0}
+  id: 0
