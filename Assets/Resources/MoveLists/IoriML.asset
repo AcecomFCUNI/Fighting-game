@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d413d01603fd7f44ea31e106d6f71248, type: 3}
-  m_Name: MoveListTest
+  m_Name: IoriML
   m_EditorClassIdentifier: 
   moveList:
   - {fileID: 11400000, guid: 1ebb879151b701b4a9009895a1f15784, type: 2}

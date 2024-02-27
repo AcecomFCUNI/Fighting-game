@@ -102,7 +102,7 @@ public class PlayerAttack : MonoBehaviour
             Collider2D[] hitEnemies = Physics2D.OverlapBoxAll(transform.position, size, 0f);
             foreach (Collider2D enemy in hitEnemies)
             {
-                if (enemy.name == "Player1")
+                if (enemy.name == "Player" + id)
                 {
                     continue;
                 }
@@ -120,7 +120,7 @@ public class PlayerAttack : MonoBehaviour
             Collider2D[] hitEnemies = Physics2D.OverlapBoxAll(transform.position + offset, size, 0f);
             foreach (Collider2D enemy in hitEnemies)
             {
-                if (enemy.name == "Player1")
+                if (enemy.name == "Player" + id)
                 {
                     continue;
                 }
@@ -137,7 +137,4 @@ public class PlayerAttack : MonoBehaviour
         Gizmos.color = Color.red;
         Gizmos.DrawWireCube(transform.position + offset, size);
     }
-
-    
-    
 }
