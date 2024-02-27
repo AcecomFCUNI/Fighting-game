@@ -25,29 +25,29 @@ public class PlayerAttack : MonoBehaviour
         //doAnimation();
     }
 
-    private void doAnimation()
-    {
-        if (Input.GetButtonDown("LP" + id))
-        {
-            an.SetFloat("AttackType", 0);
-            an.SetTrigger("Attack");
-        }
-        if (Input.GetButtonDown("SP" + id))
-        {
-            an.SetFloat("AttackType", 0.3f);
-            an.SetTrigger("Attack");
-        }
-        if (Input.GetButtonDown("LK" + id))
-        {
-            an.SetFloat("AttackType", 0.6f);
-            an.SetTrigger("Attack");
-        }
-        if (Input.GetButtonDown("SK" + id))
-        {
-            an.SetFloat("AttackType", 1);
-            an.SetTrigger("Attack");
-        }
-    }
+    // private void doAnimation()
+    // {
+    //     if (Input.GetButtonDown("LP" + id))
+    //     {
+    //         an.SetFloat("AttackType", 0);
+    //         an.SetTrigger("Attack");
+    //     }
+    //     if (Input.GetButtonDown("SP" + id))
+    //     {
+    //         an.SetFloat("AttackType", 0.3f);
+    //         an.SetTrigger("Attack");
+    //     }
+    //     if (Input.GetButtonDown("LK" + id))
+    //     {
+    //         an.SetFloat("AttackType", 0.6f);
+    //         an.SetTrigger("Attack");
+    //     }
+    //     if (Input.GetButtonDown("SK" + id))
+    //     {
+    //         an.SetFloat("AttackType", 1);
+    //         an.SetTrigger("Attack");
+    //     }
+    // }
 
     private void readInput()
     {
@@ -100,9 +100,9 @@ public class PlayerAttack : MonoBehaviour
             Vector2 size = new Vector2(8, 1);
             offset = new Vector3(scale, 1.42f, 0);
             Collider2D[] hitEnemies = Physics2D.OverlapBoxAll(transform.position, size, 0f);
-            foreach (Collider2D enemy in hitEnemies)
+            foreach (Collider2D enemy in hitEnemies )
             {
-                if (enemy.name == "Player" + id)
+                if (enemy.name == ("Player" + id) || enemy.tag == "Limits")
                 {
                     continue;
                 }
@@ -120,7 +120,7 @@ public class PlayerAttack : MonoBehaviour
             Collider2D[] hitEnemies = Physics2D.OverlapBoxAll(transform.position + offset, size, 0f);
             foreach (Collider2D enemy in hitEnemies)
             {
-                if (enemy.name == "Player" + id)
+                if (enemy.name == ("Player" + id) || enemy.tag == "Limits")
                 {
                     continue;
                 }

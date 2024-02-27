@@ -10,18 +10,23 @@ public class Player : MonoBehaviour
     [SerializeField] private float jumpForce;
     [SerializeField] private int id = 1;
     [SerializeField] private string character;
+    [SerializeField] private GameObject audioWin;
+    [SerializeField] private bool isLoser;
+    [SerializeField] private Player enemy;
+    [SerializeField] private float life;
+    [SerializeField] private GameObject k;
+    [SerializeField] private GameObject o;
     public static float speed = 7.5f;
 
     private Rigidbody2D rb;
     private Animator an;
 
+    
     private float xAxis;
     public bool isJump;
     public bool grounded;
     public PlayerData _data;
     private Vector2 jumpVelocity;
-    public Player enemy;
-    public float life;
 
     public float XAxis 
     {
@@ -40,21 +45,34 @@ public class Player : MonoBehaviour
         get => character;
         private set => character = value;
     }
-    
+    public float Life
+    {
+        get => life;
+        private set
+        {
+            life = value;
+            if (life <= 0) 
+            {
+                isLoser = true;
+                GameManager.Instance.isGameOver = true;
+                DoLoseAnimation();
+                GameManager.Instance.GameOver(enemy);
+                StartCoroutine("SoundKO");
+            }
+        } 
+    }
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
         an = GetComponent<Animator>();
         grounded = true;
         isJump = false;
+        isLoser = false;
     }
 
     void Update()
     {
-        Vector3 lookDirection = enemy.transform.position - transform.position;
-        lookDirection.y = 0f;
-        if(lookDirection.x > 0) transform.right = new Vector3(1, 0, 0);
-        else if(lookDirection.x < 0) transform.right = new Vector3(-1, 0, 0);
+        LookAtEnemy();
         ReadInputs();
         Move();
         Run();
@@ -109,6 +127,15 @@ public class Player : MonoBehaviour
             isJump = true;
         }
     }
+
+    private void OnCollisionEnter2D(Collision2D other)
+    {
+        if (other.gameObject.CompareTag("Ground"))
+        {
+            isJump = false;
+            grounded = true;
+        }
+    }
     
     private void Move()
     {
@@ -130,21 +157,53 @@ public class Player : MonoBehaviour
         } 
         
     }
-    
-    private void OnCollisionEnter2D(Collision2D other)
+
+    private void LookAtEnemy()
     {
-        if (other.gameObject.CompareTag("Ground"))
-        {
-            isJump = false;
-            grounded = true;
-        }
+        Vector3 lookDirection = enemy.transform.position - transform.position;
+        lookDirection.y = 0f;
+
+        if(lookDirection.x > 0) transform.right = new Vector3(1, 0, 0);
+        else if(lookDirection.x < 0) transform.right = new Vector3(-1, 0, 0);
     }
+
     public void TakeDamage(float damage)
     {
-        life -= damage;
-        if (life <= 0)
-        {
-            transform.position = new Vector3(100, 0, 0);
-        }
+        Life -= damage;
     }
+
+    
+
+    public void DoWinAnimation()
+    {
+        an.Play("Win");
+        GameObject audio = Instantiate(audioWin,Vector3.zero, Quaternion.identity);
+        Destroy(audio, 3);
+    }
+
+    public void DoLoseAnimation()
+    {
+        an.updateMode = AnimatorUpdateMode.UnscaledTime;
+        an.Play("Lose");
+    }
+
+    public void LoseAnimationFinished()
+    {
+        if(enemy.isLoser == false) enemy.DoWinAnimation();
+    }
+
+    IEnumerator WinAnimationFinished()
+    {
+        yield return new WaitForSecondsRealtime(1.5f);
+        GameManager.Instance.RestartRound();
+    }
+    IEnumerator SoundKO()
+    {
+        GameObject soundK = Instantiate(k,transform.position, Quaternion.identity);
+        Destroy(soundK, 3f);
+        yield return new WaitForSecondsRealtime(0.15f);
+        GameObject soundO = Instantiate(o,transform.position, Quaternion.identity);
+        Destroy(soundO, 3f);
+    }
+
 }

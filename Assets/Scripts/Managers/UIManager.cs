@@ -31,12 +31,11 @@ public class UIManager : MonoBehaviour
     {
         if(Instance == null) Instance = this;
         else Destroy(gameObject);
-        DontDestroyOnLoad(gameObject);
     }
 
     private void UpdateHealthBar()
     {
-        healthBarOne.fillAmount = playerOne.life/100;
-        healthBarTwo.fillAmount = playerTwo.life/100;
+        healthBarOne.fillAmount = playerOne.Life/100;
+        healthBarTwo.fillAmount = playerTwo.Life/100;
     }
 }

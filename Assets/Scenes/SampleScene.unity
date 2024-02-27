@@ -233,6 +233,7 @@ GameObject:
   m_Component:
   - component: {fileID: 826575405}
   - component: {fileID: 826575404}
+  - component: {fileID: 826575406}
   m_Layer: 0
   m_Name: BackgroundMusic
   m_TagString: Untagged
@@ -350,6 +351,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &826575406
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 826575403}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f020d70112f8ed488ce5a42d41a4ad8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &860996466
 GameObject:
   m_ObjectHideFlags: 0
@@ -424,6 +437,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 674f36465c1476049b6b8e5ad8e2258a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isGameOver: 0
+  possibleInputs:
+  - LP
+  - SP
+  - LK
+  - SK
+  - Jump
+  - Crouch
 --- !u!4 &904878190
 Transform:
   m_ObjectHideFlags: 0
@@ -1185,7 +1206,7 @@ Animator:
   m_Avatar: {fileID: 0}
   m_Controller: {fileID: 9100000, guid: d6dcbadf04173c54eabdd6dca61f62f7, type: 2}
   m_CullingMode: 0
-  m_UpdateMode: 0
+  m_UpdateMode: 2
   m_ApplyRootMotion: 0
   m_LinearVelocityBlending: 0
   m_WarningMessage: 
@@ -1205,7 +1226,7 @@ GameObject:
   - component: {fileID: 1948633543}
   m_Layer: 0
   m_Name: Right
-  m_TagString: Untagged
+  m_TagString: Limits
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1314,7 +1335,7 @@ GameObject:
   - component: {fileID: 1971363369}
   m_Layer: 0
   m_Name: Left
-  m_TagString: Untagged
+  m_TagString: Limits
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1489,6 +1510,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 178258186265978268, guid: 3122f075267106248aa2e9cc3a41cb78, type: 3}
+      propertyPath: m_TagString
+      value: Limits
+      objectReference: {fileID: 0}
+    - target: {fileID: 178258186373513021, guid: 3122f075267106248aa2e9cc3a41cb78, type: 3}
+      propertyPath: m_TagString
+      value: Limits
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3122f075267106248aa2e9cc3a41cb78, type: 3}
 --- !u!1001 &8095733132939433233
@@ -1499,9 +1528,25 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 562793133, guid: 71604eaa6e35a1446b3e477dfec2f86d, type: 3}
+      propertyPath: k
+      value: 
+      objectReference: {fileID: 1625021252654749454, guid: d9b328ed07e4bc3429e49ec674651c2a, type: 3}
+    - target: {fileID: 562793133, guid: 71604eaa6e35a1446b3e477dfec2f86d, type: 3}
+      propertyPath: o
+      value: 
+      objectReference: {fileID: 314261530980120567, guid: 144b1129c1a924948ba69a4c05284126, type: 3}
+    - target: {fileID: 562793133, guid: 71604eaa6e35a1446b3e477dfec2f86d, type: 3}
       propertyPath: enemy
       value: 
       objectReference: {fileID: 1495799654}
+    - target: {fileID: 562793133, guid: 71604eaa6e35a1446b3e477dfec2f86d, type: 3}
+      propertyPath: audioWin
+      value: 
+      objectReference: {fileID: 4845571100018513035, guid: 0fa5a4e6a3907f44d989be012b305f2c, type: 3}
+    - target: {fileID: 6130260068711656474, guid: 71604eaa6e35a1446b3e477dfec2f86d, type: 3}
+      propertyPath: tiempoInicialAtaque
+      value: 0.7
+      objectReference: {fileID: 0}
     - target: {fileID: 8095733132788500934, guid: 71604eaa6e35a1446b3e477dfec2f86d, type: 3}
       propertyPath: m_Name
       value: Player2
@@ -1559,14 +1604,30 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 744945894695335463, guid: a0d75fecd8379cf47ab6d98d4bdeb0ba, type: 3}
+      propertyPath: tiempoInicialAtaque
+      value: 0.7
+      objectReference: {fileID: 0}
     - target: {fileID: 8926414061078971696, guid: a0d75fecd8379cf47ab6d98d4bdeb0ba, type: 3}
       propertyPath: m_Name
       value: Player1
       objectReference: {fileID: 0}
     - target: {fileID: 8926414061078971698, guid: a0d75fecd8379cf47ab6d98d4bdeb0ba, type: 3}
+      propertyPath: k
+      value: 
+      objectReference: {fileID: 1625021252654749454, guid: d9b328ed07e4bc3429e49ec674651c2a, type: 3}
+    - target: {fileID: 8926414061078971698, guid: a0d75fecd8379cf47ab6d98d4bdeb0ba, type: 3}
+      propertyPath: o
+      value: 
+      objectReference: {fileID: 314261530980120567, guid: 144b1129c1a924948ba69a4c05284126, type: 3}
+    - target: {fileID: 8926414061078971698, guid: a0d75fecd8379cf47ab6d98d4bdeb0ba, type: 3}
       propertyPath: enemy
       value: 
       objectReference: {fileID: 1090687283}
+    - target: {fileID: 8926414061078971698, guid: a0d75fecd8379cf47ab6d98d4bdeb0ba, type: 3}
+      propertyPath: audioWin
+      value: 
+      objectReference: {fileID: 4845571100018513035, guid: 0fa5a4e6a3907f44d989be012b305f2c, type: 3}
     - target: {fileID: 8926414061078971709, guid: a0d75fecd8379cf47ab6d98d4bdeb0ba, type: 3}
       propertyPath: m_RootOrder
       value: 1

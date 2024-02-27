@@ -15,14 +15,14 @@ public class PlayerInput : MonoBehaviour
     private void Update() 
     {
         UpdateInputBuffer();
-        CheckInputBuffer(); 
+        //CheckInputBuffer(); 
     }
     private void InitializeBuffer()
     {
         inputBuffer = new List<InputBufferItem>();
-        for(int i = 0; i < GameManager.possibleInputs.Count; i++ )
+        for(int i = 0; i < GameManager.Instance.possibleInputs.Count; i++ )
         {
-            inputBuffer.Add(new InputBufferItem(GameManager.possibleInputs[i] + player.Id));
+            inputBuffer.Add(new InputBufferItem(GameManager.Instance.possibleInputs[i] + player.Id));
         }
     }
 
@@ -41,14 +41,12 @@ public class PlayerInput : MonoBehaviour
 
     private void CheckInputBuffer()
     {
-        //Check each slot of the movelist, then check each input of each slot, 
-        //and, using priority, go through all the input buffer to check if the combo has been done
         MoveListData moveList = GetCurrentMoveList();
         for(int i = 0; i < moveList.slots.Count; i++)
         {
             foreach (ActionData action in moveList.slots)
             {
-                foreach(inputData input in action.inputs)
+                foreach(InputData input in action.inputs)
                 {
                     
                 }
@@ -60,5 +58,4 @@ public class PlayerInput : MonoBehaviour
     {
         return GetMoveListSO.Instance.GetMovelist(player.Character + "ML");
     }
-    
 }
