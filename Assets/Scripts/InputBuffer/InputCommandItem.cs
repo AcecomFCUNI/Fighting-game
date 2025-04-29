@@ -1,8 +1,5 @@
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
 
-public class InputCommandItem
+public class InputCommandItem 
 {
     public int hold; 
     public bool used;
@@ -22,5 +19,4 @@ public class InputCommandItem
         }
         else hold = 0;
     }
-
 }

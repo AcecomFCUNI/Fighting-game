@@ -1,0 +1,2721 @@
+fileFormatVersion: 2
+guid: 9d493ea3bee14984b9b7818b8dd71409
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2510951117006689143
+    second: JapanStage3_0
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 24
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: JapanStage3_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5720
+        width: 795
+        height: 260
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 773dd81ccb0b8d220800000000000000
+      internalID: 2510951117006689143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JapanStage3_1
+      rect:
+        serializedVersion: 2
+        x: 795
+        y: 5720
+        width: 795
+        height: 260
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d2837a7e53da2d429f5fa53696ff853
+      internalID: -658460838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JapanStage3_2
+      rect:
+        serializedVersion: 2
+        x: 1590
+        y: 5720
+        width: 795
+        height: 260
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a5f112414a6169469cedd6b2ad75284
+      internalID: -1825868388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JapanStage3_3
+      rect:
+        serializedVersion: 2
+        x: 2385
+        y: 5720
+        width: 795
+        height: 260
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3502c3be941a564a9c50390806afcef
+      internalID: 632533202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JapanStage3_4
+      rect:
+        serializedVersion: 2
+        x: 3180
+        y: 5720
+        width: 795
+        height: 260
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 747013174a3aa124dbeb8333672e9e92
+      internalID: 1464328768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JapanStage3_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5460
+        width: 795
+        height: 260
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5cd503008cd64246b512fd589f3c9c6
+      internalID: -1949577169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JapanStage3_6
+      rect:
+        serializedVersion: 2
+        x: 795
+        y: 5460
+        width: 795
+        height: 260
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7692565170c853a488851b1edcd51925
+      internalID: -209972999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JapanStage3_7
+      rect:
+        serializedVersion: 2
+        x: 1590
+        y: 5460
+        width: 795
+        height: 260
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60e730cb2a514bc4986307f5e9f251da
+      internalID: -1325406737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JapanStage3_8
+      rect:
+        serializedVersion: 2
+        x: 2385
+        y: 5460
+        width: 795
+        height: 260
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 566fa8565bf5015448dd1edffd88f751
+      internalID: -614164641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JapanStage3_9
+      rect:
+        serializedVersion: 2
+        x: 3180
+        y: 5460
+        width: 795
+        height: 260
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 371ef4ca404929e4b9daeceb1debedbc
+      internalID: 1142636781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JapanStage3_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5200
+        width: 795
+        height: 260
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea0eb2d3a70e39c44a95946c4c60bc00
+      internalID: -1766456836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JapanStage3_11
+      rect:
+        serializedVersion: 2
+        x: 795
+        y: 5200
+        width: 795
+        height: 260
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9e205b03b6357e41ad8af34d708cb22
+      internalID: 1094837421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JapanStage3_12
+      rect:
+        serializedVersion: 2
+        x: 1590
+        y: 5200
+        width: 795
+        height: 260
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 794ae9b1370da5f49b5ddb06491ee3e9
+      internalID: -1809540135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JapanStage3_13
+      rect:
+        serializedVersion: 2
+        x: 2385
+        y: 5200
+        width: 795
+        height: 260
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3e412c3ed4053045a8429a62762f9a9
+      internalID: 427917338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JapanStage3_14
+      rect:
+        serializedVersion: 2
+        x: 3180
+        y: 5200
+        width: 795
+        height: 260
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b321162535dda7345bd7a1933b4729e4
+      internalID: -632121914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JapanStage3_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4940
+        width: 795
+        height: 260
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12ad43d971826eb42b49628e7f5da91d
+      internalID: -615893833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JapanStage3_16
+      rect:
+        serializedVersion: 2
+        x: 795
+        y: 4940
+        width: 795
+        height: 260
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51333b09a684bf14bb55cebca8557f48
+      internalID: 1175109694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JapanStage3_17
+      rect:
+        serializedVersion: 2
+        x: 1590
+        y: 4940
+        width: 795
+        height: 260
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 225a000514768d24ab4514dc595b166f
+      internalID: -839378732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JapanStage3_18
+      rect:
+        serializedVersion: 2
+        x: 2385
+        y: 4940
+        width: 795
+        height: 260
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afeb65d8883245f45861ba6dd61d492d
+      internalID: 649883878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JapanStage3_19
+      rect:
+        serializedVersion: 2
+        x: 3180
+        y: 4940
+        width: 795
+        height: 260
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e1ebe57065c2f149a20e69fb4dc4e1f
+      internalID: 144309364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JapanStage3_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4680
+        width: 795
+        height: 260
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 267f1aa811e885445842613f70c5d88f
+      internalID: 1006688997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JapanStage3_21
+      rect:
+        serializedVersion: 2
+        x: 795
+        y: 4680
+        width: 795
+        height: 260
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3e73c554c727b24ab70bc62111193bf
+      internalID: -1724392837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JapanStage3_22
+      rect:
+        serializedVersion: 2
+        x: 1590
+        y: 4680
+        width: 795
+        height: 260
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3139257592803a349b15af0648d133e0
+      internalID: -814572169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JapanStage3_23
+      rect:
+        serializedVersion: 2
+        x: 2385
+        y: 4680
+        width: 795
+        height: 260
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d2c9f4fd59bfda43be07f123fe9e13f
+      internalID: 2007546539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JapanStage3_24
+      rect:
+        serializedVersion: 2
+        x: 3180
+        y: 4680
+        width: 795
+        height: 260
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4a1954d408eb7841a27d02ba981a947
+      internalID: 104649100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JapanStage3_25
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4420
+        width: 795
+        height: 260
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97539bab83e97d647b6cf6488b1a121f
+      internalID: 1510236110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JapanStage3_26
+      rect:
+        serializedVersion: 2
+        x: 795
+        y: 4420
+        width: 795
+        height: 260
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfdd476908359e1459071e33314622a9
+      internalID: -1733354970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JapanStage3_27
+      rect:
+        serializedVersion: 2
+        x: 1590
+        y: 4420
+        width: 795
+        height: 260
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c381ef62e0b34fd4dab7923f6a0af05e
+      internalID: 404682093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JapanStage3_28
+      rect:
+        serializedVersion: 2
+        x: 2385
+        y: 4420
+        width: 795
+        height: 260
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26190f121d5773a43b7bcb30f3ae6cdf
+      internalID: -206067373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JapanStage3_29
+      rect:
+        serializedVersion: 2
+        x: 3180
+        y: 4420
+        width: 795
+        height: 260
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c1d4370db7ea114fb59ed8c411e2835
+      internalID: 1297647392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JapanStage3_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4160
+        width: 795
+        height: 260
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97d7ba7fd758d8a44963ff503bb9be48
+      internalID: -1756906545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JapanStage3_31
+      rect:
+        serializedVersion: 2
+        x: 795
+        y: 4160
+        width: 795
+        height: 260
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f04e67dd381096f42880d013fb3aac00
+      internalID: -1976078619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JapanStage3_32
+      rect:
+        serializedVersion: 2
+        x: 1590
+        y: 4160
+        width: 795
+        height: 260
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a15823bbd4c1d240aa681f1ab851e2e
+      internalID: 346915559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JapanStage3_33
+      rect:
+        serializedVersion: 2
+        x: 2385
+        y: 4160
+        width: 795
+        height: 260
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f41044eefaf0eb4d91eeac247ffc1a9
+      internalID: -464980196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JapanStage3_34
+      rect:
+        serializedVersion: 2
+        x: 3180
+        y: 4160
+        width: 795
+        height: 260
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40be30a3384ad3b47b3390389f877b14
+      internalID: -808667211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JapanStage3_35
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3900
+        width: 795
+        height: 260
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2efb91add0df24144af2f55436852c03
+      internalID: -1184137344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JapanStage3_36
+      rect:
+        serializedVersion: 2
+        x: 795
+        y: 3900
+        width: 795
+        height: 260
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57081ceb9da762e4788fece69c79e6d8
+      internalID: -218456694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JapanStage3_37
+      rect:
+        serializedVersion: 2
+        x: 1590
+        y: 3900
+        width: 795
+        height: 260
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42531f0c552b03c48ab87289b7755366
+      internalID: 940428186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JapanStage3_38
+      rect:
+        serializedVersion: 2
+        x: 2385
+        y: 3900
+        width: 795
+        height: 260
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a0717c572fc8624e8dd2acaba9c2613
+      internalID: -1727555657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JapanStage3_39
+      rect:
+        serializedVersion: 2
+        x: 3180
+        y: 3900
+        width: 795
+        height: 260
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb4e46a3e246ac646bface6eff5d88b2
+      internalID: 709995216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JapanStage3_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3640
+        width: 795
+        height: 260
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb5bdd248eaa4cc449a5ed494dc7a663
+      internalID: -1701924249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JapanStage3_41
+      rect:
+        serializedVersion: 2
+        x: 795
+        y: 3640
+        width: 795
+        height: 260
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64a48ad73fcf4924e85f06761e00919d
+      internalID: 1358138378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JapanStage3_42
+      rect:
+        serializedVersion: 2
+        x: 1590
+        y: 3640
+        width: 795
+        height: 260
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3a7bf691d17f034f8f2866e43dbffb0
+      internalID: 366569029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JapanStage3_43
+      rect:
+        serializedVersion: 2
+        x: 2385
+        y: 3640
+        width: 795
+        height: 260
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6d8f70bbaab5ec42ba636318e3d7e97
+      internalID: -283488902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JapanStage3_44
+      rect:
+        serializedVersion: 2
+        x: 3180
+        y: 3640
+        width: 795
+        height: 260
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c01515b864b2c064489a0dc0defe0afc
+      internalID: -121854861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JapanStage3_45
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3380
+        width: 795
+        height: 260
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04f0192822e483f438c2a3bc8e16ef9a
+      internalID: -1033407667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JapanStage3_46
+      rect:
+        serializedVersion: 2
+        x: 795
+        y: 3380
+        width: 795
+        height: 260
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3dcd15f08d1a88499c3f628f451841a
+      internalID: 913581816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JapanStage3_47
+      rect:
+        serializedVersion: 2
+        x: 1590
+        y: 3380
+        width: 795
+        height: 260
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0211d11010df0364599cb735de42ef53
+      internalID: 1342488373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JapanStage3_48
+      rect:
+        serializedVersion: 2
+        x: 2385
+        y: 3380
+        width: 795
+        height: 260
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 031c87a07c2637047951e8ebc1b6d9ee
+      internalID: -2060240720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JapanStage3_49
+      rect:
+        serializedVersion: 2
+        x: 3180
+        y: 3380
+        width: 795
+        height: 260
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e68f41de34383d542a86f7b5736d433b
+      internalID: -1320600096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JapanStage3_50
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3120
+        width: 795
+        height: 260
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c1d3c227d577b746b9a4d68c33adaff
+      internalID: 40806238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JapanStage3_51
+      rect:
+        serializedVersion: 2
+        x: 795
+        y: 3120
+        width: 795
+        height: 260
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f5732cdf04f34f4492124a9d673075f
+      internalID: -1095284104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JapanStage3_52
+      rect:
+        serializedVersion: 2
+        x: 1590
+        y: 3120
+        width: 795
+        height: 260
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eec445828b3506049b02fda53586acd5
+      internalID: 1136208752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JapanStage3_53
+      rect:
+        serializedVersion: 2
+        x: 2385
+        y: 3120
+        width: 795
+        height: 260
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1630616152fc69a4b999190e54aed7dc
+      internalID: -1502935726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JapanStage3_54
+      rect:
+        serializedVersion: 2
+        x: 3180
+        y: 3120
+        width: 795
+        height: 260
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f314fb4f748521419e1fab2301e0250
+      internalID: -645408860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JapanStage3_55
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2860
+        width: 795
+        height: 260
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b871d1d6cb10db45824e37ccba39e8d
+      internalID: -1717310976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JapanStage3_56
+      rect:
+        serializedVersion: 2
+        x: 795
+        y: 2860
+        width: 795
+        height: 260
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7cea3206010da04babcaa2932e085e2
+      internalID: -1939850063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JapanStage3_57
+      rect:
+        serializedVersion: 2
+        x: 1590
+        y: 2860
+        width: 795
+        height: 260
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d336123547d290747adddd51148df4c1
+      internalID: 1893847319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JapanStage3_58
+      rect:
+        serializedVersion: 2
+        x: 2385
+        y: 2860
+        width: 795
+        height: 260
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b46bb272de1a1a4449965bd7d64063b0
+      internalID: -1772623685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JapanStage3_59
+      rect:
+        serializedVersion: 2
+        x: 3180
+        y: 2860
+        width: 795
+        height: 260
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b24610bdc33c3214fbd15c7100f1947f
+      internalID: -1983259736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JapanStage3_60
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2600
+        width: 795
+        height: 260
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 223075116ef9c2948a1b212c32718075
+      internalID: 1316260375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JapanStage3_61
+      rect:
+        serializedVersion: 2
+        x: 795
+        y: 2600
+        width: 795
+        height: 260
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87a992c5e4a5ed1459e1bcd348d61961
+      internalID: -3834293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JapanStage3_62
+      rect:
+        serializedVersion: 2
+        x: 1590
+        y: 2600
+        width: 795
+        height: 260
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 929a2946d9fee804f94312398d04c468
+      internalID: 1186230995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JapanStage3_63
+      rect:
+        serializedVersion: 2
+        x: 2385
+        y: 2600
+        width: 795
+        height: 260
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68e408df1a6be8440bf809a41d8085a9
+      internalID: -487065818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JapanStage3_64
+      rect:
+        serializedVersion: 2
+        x: 3180
+        y: 2600
+        width: 795
+        height: 260
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81e6fae9b0576ed4e9817632c4d8c7cc
+      internalID: 1349517369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JapanStage3_65
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2340
+        width: 795
+        height: 260
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d21fbe6bf6e4ea2428eabc5d5edb779f
+      internalID: 2065594649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JapanStage3_66
+      rect:
+        serializedVersion: 2
+        x: 795
+        y: 2340
+        width: 795
+        height: 260
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b0f4b0a0e8800443806f7086362deae
+      internalID: 1636647344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JapanStage3_67
+      rect:
+        serializedVersion: 2
+        x: 1590
+        y: 2340
+        width: 795
+        height: 260
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bb4b09aa2df145428a899d01e54deb9
+      internalID: 959911358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JapanStage3_68
+      rect:
+        serializedVersion: 2
+        x: 2385
+        y: 2340
+        width: 795
+        height: 260
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5650da9ee5c00ac4eb75c2fc51682195
+      internalID: 277133052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JapanStage3_69
+      rect:
+        serializedVersion: 2
+        x: 3180
+        y: 2340
+        width: 795
+        height: 260
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: feb6abd040ff404478c16cc7e80c1c04
+      internalID: -1837824830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JapanStage3_70
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2080
+        width: 795
+        height: 260
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 941f76719b5e9f348b31259549358448
+      internalID: 274181824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JapanStage3_71
+      rect:
+        serializedVersion: 2
+        x: 795
+        y: 2080
+        width: 795
+        height: 260
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 479f38640b552ac47802dfba57af5ff0
+      internalID: -666319086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JapanStage3_72
+      rect:
+        serializedVersion: 2
+        x: 1590
+        y: 2080
+        width: 795
+        height: 260
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7501e769cbee1964280623734e3a0ffc
+      internalID: -616240335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JapanStage3_73
+      rect:
+        serializedVersion: 2
+        x: 2385
+        y: 2080
+        width: 795
+        height: 260
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b860ba3d3540b35408fe5c8828851da3
+      internalID: -1897379010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JapanStage3_74
+      rect:
+        serializedVersion: 2
+        x: 3180
+        y: 2080
+        width: 795
+        height: 260
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 267622de0a61aff4da5e89a17bfccb3b
+      internalID: -835093500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JapanStage3_75
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1820
+        width: 795
+        height: 260
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c25406dbfe7b59e4584a70320bec899e
+      internalID: 413174714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JapanStage3_76
+      rect:
+        serializedVersion: 2
+        x: 795
+        y: 1820
+        width: 795
+        height: 260
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bda0cfa762e65c84992104333ce4f3e2
+      internalID: 916409743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JapanStage3_77
+      rect:
+        serializedVersion: 2
+        x: 1590
+        y: 1820
+        width: 795
+        height: 260
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e74d664c62dc5a458fcc3f5cdaae67b
+      internalID: -385242572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JapanStage3_78
+      rect:
+        serializedVersion: 2
+        x: 2385
+        y: 1820
+        width: 795
+        height: 260
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d35894f8cf0abc04896e7619597571a4
+      internalID: 1687698160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JapanStage3_79
+      rect:
+        serializedVersion: 2
+        x: 3180
+        y: 1820
+        width: 795
+        height: 260
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f22d6740fbce45b429a9dddd67705b98
+      internalID: -83717808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JapanStage3_80
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1560
+        width: 795
+        height: 260
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a71044fe56101f48807f369f40a2cb7
+      internalID: -955608925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JapanStage3_81
+      rect:
+        serializedVersion: 2
+        x: 795
+        y: 1560
+        width: 795
+        height: 260
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 107dc4a32d63cf64b81cd9305a871200
+      internalID: -1165780387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JapanStage3_82
+      rect:
+        serializedVersion: 2
+        x: 1590
+        y: 1560
+        width: 795
+        height: 260
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 358519ca51db6024999614cbe7b27c92
+      internalID: -1883756871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JapanStage3_83
+      rect:
+        serializedVersion: 2
+        x: 2385
+        y: 1560
+        width: 795
+        height: 260
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f132c1dbc04176247bb912eeec4d3da4
+      internalID: -1156059494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JapanStage3_84
+      rect:
+        serializedVersion: 2
+        x: 3180
+        y: 1560
+        width: 795
+        height: 260
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c04c08eb07b74a140be2a411f0f5dee2
+      internalID: -1280843053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JapanStage3_85
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1300
+        width: 795
+        height: 260
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fc3bc44eded3f847801527ac8869778
+      internalID: -2024361095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JapanStage3_86
+      rect:
+        serializedVersion: 2
+        x: 795
+        y: 1300
+        width: 795
+        height: 260
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afc9cf6f79893c74b957d770f8c694af
+      internalID: 2093149245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JapanStage3_87
+      rect:
+        serializedVersion: 2
+        x: 1590
+        y: 1300
+        width: 795
+        height: 260
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad263c489a3e33e4eabb0f915b4f6f9f
+      internalID: 876332072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JapanStage3_88
+      rect:
+        serializedVersion: 2
+        x: 2385
+        y: 1300
+        width: 795
+        height: 260
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4979e5dac9079e543b8ce37aa5e497ab
+      internalID: -500396331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JapanStage3_89
+      rect:
+        serializedVersion: 2
+        x: 3180
+        y: 1300
+        width: 795
+        height: 260
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74ba9532fb27d244f9dae21e88a50cb0
+      internalID: -2108191673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JapanStage3_90
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1040
+        width: 795
+        height: 260
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9491417390bfa134fabdc8921b2c3be1
+      internalID: -183715978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JapanStage3_91
+      rect:
+        serializedVersion: 2
+        x: 795
+        y: 1040
+        width: 795
+        height: 260
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb8213b57d021744d97847f53321679d
+      internalID: -1739367994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JapanStage3_92
+      rect:
+        serializedVersion: 2
+        x: 1590
+        y: 1040
+        width: 795
+        height: 260
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7fd3ae20e4638048aae466008a7c38f
+      internalID: 2145865065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JapanStage3_93
+      rect:
+        serializedVersion: 2
+        x: 2385
+        y: 1040
+        width: 795
+        height: 260
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 906807cd064c0f64aba0e6d21bcb5559
+      internalID: 498828702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JapanStage3_94
+      rect:
+        serializedVersion: 2
+        x: 3180
+        y: 1040
+        width: 795
+        height: 260
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d4ca4c590dc38c478cb28f421a790ab
+      internalID: 700990084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JapanStage3_95
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 780
+        width: 795
+        height: 260
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41ada5b9d420b854c9f6933d5c455e71
+      internalID: 89331152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JapanStage3_96
+      rect:
+        serializedVersion: 2
+        x: 795
+        y: 780
+        width: 795
+        height: 260
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 585cd8f8b86093b42bb5efbb834cfb8f
+      internalID: -662544120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JapanStage3_97
+      rect:
+        serializedVersion: 2
+        x: 1590
+        y: 780
+        width: 795
+        height: 260
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f31a7c43c655e034a839b12437791bfb
+      internalID: 1096511094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JapanStage3_98
+      rect:
+        serializedVersion: 2
+        x: 2385
+        y: 780
+        width: 795
+        height: 260
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0633d7bd74fec90499dfbc0947fdba4d
+      internalID: -76351090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JapanStage3_99
+      rect:
+        serializedVersion: 2
+        x: 3180
+        y: 780
+        width: 795
+        height: 260
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f29141649735ff4f9b6e2bed28b7ae2
+      internalID: 1154303409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JapanStage3_100
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 520
+        width: 795
+        height: 260
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1decbcbb6575c064a9a7f8df56514a60
+      internalID: -1363955660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JapanStage3_101
+      rect:
+        serializedVersion: 2
+        x: 795
+        y: 520
+        width: 795
+        height: 260
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47349354230895847bca40ada757e21a
+      internalID: 525331119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JapanStage3_102
+      rect:
+        serializedVersion: 2
+        x: 1590
+        y: 520
+        width: 795
+        height: 260
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5dd705fc674c9f46a8e9294d179fccb
+      internalID: -7353251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JapanStage3_103
+      rect:
+        serializedVersion: 2
+        x: 2385
+        y: 520
+        width: 795
+        height: 260
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3faa1c220763ba488d55d8f6ff20287
+      internalID: -1601512547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JapanStage3_104
+      rect:
+        serializedVersion: 2
+        x: 3180
+        y: 520
+        width: 795
+        height: 260
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a6f1c060e0d3df49a5e6fcee5c7f5b4
+      internalID: -1666554330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JapanStage3_105
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 260
+        width: 795
+        height: 260
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efe2c7d5cf5fc00409d34ab36ef56db1
+      internalID: -467343300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JapanStage3_106
+      rect:
+        serializedVersion: 2
+        x: 795
+        y: 260
+        width: 795
+        height: 260
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55463137598d4e547ac38b31f53dd9eb
+      internalID: -199359384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JapanStage3_107
+      rect:
+        serializedVersion: 2
+        x: 1590
+        y: 260
+        width: 795
+        height: 260
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8ea3405999f4094bae4c9f1c5ef19a3
+      internalID: -385236168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JapanStage3_108
+      rect:
+        serializedVersion: 2
+        x: 2385
+        y: 260
+        width: 795
+        height: 260
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dec4c214c531e4143a200f6582ec150f
+      internalID: 1665464674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JapanStage3_109
+      rect:
+        serializedVersion: 2
+        x: 3180
+        y: 260
+        width: 795
+        height: 260
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69c122d17f312454cbda415bc1cc52cd
+      internalID: -19743031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JapanStage3_110
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 795
+        height: 260
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 441c331a9ae56cc4bab42812bf7b16a5
+      internalID: 58153745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JapanStage3_111
+      rect:
+        serializedVersion: 2
+        x: 795
+        y: 0
+        width: 795
+        height: 260
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce5544132acb63840994a918c524bf5f
+      internalID: 1350057218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JapanStage3_112
+      rect:
+        serializedVersion: 2
+        x: 1590
+        y: 0
+        width: 795
+        height: 260
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29665bfaee801c946af6371345055a21
+      internalID: -403481922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: f02b1332154cf4a49a858836b5fe7cf6
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      JapanStage3_0: 2510951117006689143
+      JapanStage3_1: -658460838
+      JapanStage3_10: -1766456836
+      JapanStage3_100: -1363955660
+      JapanStage3_101: 525331119
+      JapanStage3_102: -7353251
+      JapanStage3_103: -1601512547
+      JapanStage3_104: -1666554330
+      JapanStage3_105: -467343300
+      JapanStage3_106: -199359384
+      JapanStage3_107: -385236168
+      JapanStage3_108: 1665464674
+      JapanStage3_109: -19743031
+      JapanStage3_11: 1094837421
+      JapanStage3_110: 58153745
+      JapanStage3_111: 1350057218
+      JapanStage3_112: -403481922
+      JapanStage3_113: 1836022329
+      JapanStage3_114: 77260202
+      JapanStage3_12: -1809540135
+      JapanStage3_13: 427917338
+      JapanStage3_14: -632121914
+      JapanStage3_15: -615893833
+      JapanStage3_16: 1175109694
+      JapanStage3_17: -839378732
+      JapanStage3_18: 649883878
+      JapanStage3_19: 144309364
+      JapanStage3_2: -1825868388
+      JapanStage3_20: 1006688997
+      JapanStage3_21: -1724392837
+      JapanStage3_22: -814572169
+      JapanStage3_23: 2007546539
+      JapanStage3_24: 104649100
+      JapanStage3_25: 1510236110
+      JapanStage3_26: -1733354970
+      JapanStage3_27: 404682093
+      JapanStage3_28: -206067373
+      JapanStage3_29: 1297647392
+      JapanStage3_3: 632533202
+      JapanStage3_30: -1756906545
+      JapanStage3_31: -1976078619
+      JapanStage3_32: 346915559
+      JapanStage3_33: -464980196
+      JapanStage3_34: -808667211
+      JapanStage3_35: -1184137344
+      JapanStage3_36: -218456694
+      JapanStage3_37: 940428186
+      JapanStage3_38: -1727555657
+      JapanStage3_39: 709995216
+      JapanStage3_4: 1464328768
+      JapanStage3_40: -1701924249
+      JapanStage3_41: 1358138378
+      JapanStage3_42: 366569029
+      JapanStage3_43: -283488902
+      JapanStage3_44: -121854861
+      JapanStage3_45: -1033407667
+      JapanStage3_46: 913581816
+      JapanStage3_47: 1342488373
+      JapanStage3_48: -2060240720
+      JapanStage3_49: -1320600096
+      JapanStage3_5: -1949577169
+      JapanStage3_50: 40806238
+      JapanStage3_51: -1095284104
+      JapanStage3_52: 1136208752
+      JapanStage3_53: -1502935726
+      JapanStage3_54: -645408860
+      JapanStage3_55: -1717310976
+      JapanStage3_56: -1939850063
+      JapanStage3_57: 1893847319
+      JapanStage3_58: -1772623685
+      JapanStage3_59: -1983259736
+      JapanStage3_6: -209972999
+      JapanStage3_60: 1316260375
+      JapanStage3_61: -3834293
+      JapanStage3_62: 1186230995
+      JapanStage3_63: -487065818
+      JapanStage3_64: 1349517369
+      JapanStage3_65: 2065594649
+      JapanStage3_66: 1636647344
+      JapanStage3_67: 959911358
+      JapanStage3_68: 277133052
+      JapanStage3_69: -1837824830
+      JapanStage3_7: -1325406737
+      JapanStage3_70: 274181824
+      JapanStage3_71: -666319086
+      JapanStage3_72: -616240335
+      JapanStage3_73: -1897379010
+      JapanStage3_74: -835093500
+      JapanStage3_75: 413174714
+      JapanStage3_76: 916409743
+      JapanStage3_77: -385242572
+      JapanStage3_78: 1687698160
+      JapanStage3_79: -83717808
+      JapanStage3_8: -614164641
+      JapanStage3_80: -955608925
+      JapanStage3_81: -1165780387
+      JapanStage3_82: -1883756871
+      JapanStage3_83: -1156059494
+      JapanStage3_84: -1280843053
+      JapanStage3_85: -2024361095
+      JapanStage3_86: 2093149245
+      JapanStage3_87: 876332072
+      JapanStage3_88: -500396331
+      JapanStage3_89: -2108191673
+      JapanStage3_9: 1142636781
+      JapanStage3_90: -183715978
+      JapanStage3_91: -1739367994
+      JapanStage3_92: 2145865065
+      JapanStage3_93: 498828702
+      JapanStage3_94: 700990084
+      JapanStage3_95: 89331152
+      JapanStage3_96: -662544120
+      JapanStage3_97: 1096511094
+      JapanStage3_98: -76351090
+      JapanStage3_99: 1154303409
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
