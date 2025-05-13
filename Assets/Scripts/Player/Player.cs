@@ -5,17 +5,18 @@ using UnityEngine.InputSystem;
 
 public class Player : MonoBehaviour
 {
-    [SerializeField] private float speed;
     [SerializeField] private int id;
-    [SerializeField] private int health = 100;
+    [SerializeField] private int health = 10000;
     
-    private Player _enemy;
+    public static float speed = 7.5f;
     
     private float _movementInput;
     private float _variableSpeed;
     
     private Rigidbody2D _rigidBody;
     private PlayerInput _playerInput;
+    
+    private Player _enemy;
 
     public int Health
     {
@@ -29,6 +30,20 @@ public class Player : MonoBehaviour
             }
         }
     }
+
+    public float MovementInput
+    {
+        get => _movementInput;
+        private set => _movementInput = value;
+    }
+
+    public int Id
+    {
+        get => id;
+        private set => id = value;
+    }
+    
+    
     void Start()
     {
         InitializeVariables();
@@ -54,7 +69,7 @@ public class Player : MonoBehaviour
         _enemy = GameObject.FindWithTag("Player" + (3 - id)).GetComponent<Player>();
         _variableSpeed = speed;
     }
-
+    
     private void Move()
     {
         _rigidBody.linearVelocity = new Vector2(_movementInput * speed, _rigidBody.linearVelocityY);
@@ -72,8 +87,10 @@ public class Player : MonoBehaviour
     public void TakeDamage(int damage)
     {
         Health -= damage;
+        Debug.Log("Health: " + Health);
     }
-
+    
+    //TODO fix this
     public void Sprint(InputAction.CallbackContext callbackContext)
     {
         if(callbackContext.performed) _variableSpeed *= 1.5f;

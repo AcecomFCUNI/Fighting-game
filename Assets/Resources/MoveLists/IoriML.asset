@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 124c5fc5590c1354eb03fc3805c6110a, type: 3}
+  m_Name: IoriML
+  m_EditorClassIdentifier: 
+  slots:
+  - {fileID: 11400000, guid: 9e3137405a7480e4ea53e8b96a19822e, type: 2}
+  - {fileID: 11400000, guid: cf6ca97c26f4d384ca5d42f7656d2381, type: 2}
+  - {fileID: 11400000, guid: e884dec5b040bd24e9643a1b399e1e1d, type: 2}
+  - {fileID: 11400000, guid: bd484ecc5a019494e90c7d55c3a69621, type: 2}
+  - {fileID: 11400000, guid: a1fef76261cef264f957277d5b9c7dd4, type: 2}

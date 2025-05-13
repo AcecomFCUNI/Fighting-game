@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Player2
   - Player1
+  - Limits
   layers:
   - Default
   - TransparentFX
@@ -48,6 +49,9 @@ TagManager:
     locked: 0
   - name: Characters
     uniqueID: 1337699009
+    locked: 0
+  - name: Projectiles
+    uniqueID: 1489723587
     locked: 0
   m_RenderingLayers:
   - Default
